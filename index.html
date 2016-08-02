@@ -11,16 +11,10 @@
             <h1 id="app-name">Academic Search</h1>
             <!-- NB: glyphicon halflings are generally not free, but the developer made them free in bootstrap -->
 
-            <h2 id="page-header">
-                Get song recommendations based on your mood.
-            </h2>
-            <img id="selected-img" src="">
-            <div class="btn-wrapper">
-                <label class="btn btn-info" for="my-file-selector">
-                    <input id="my-file-selector" type="file">
-                    Upload a picture of you
-                </label>
-                <button type="button" class="btn btn-info" id="refreshbtn">Another song please</button>
+            <h2 id="page-header">Search using microsofts academic knowledge api</h2>
+            <div class="txt-wrapper">
+                    <input id="my-query" type="text"> Enter your search</input>
+                <button type="button" class="btn btn-info" id="submitbtn">Search!</button>
             </div>
         </div>
         <!-- 
@@ -36,6 +30,6 @@
         <!--Bootstrap Script-->
         <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <!--Custom Script-->
-        <script src="./js/basic.js"></script>
+        <script src="./js/script.js"></script>
     </body>
 </html>
